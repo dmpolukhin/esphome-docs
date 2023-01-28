@@ -38,7 +38,7 @@ Configuration variables:
   The pressure sensor must report pressure in hPa. the correction is applied before updating the state of the co2 sensor.
 
 - **address** (*Optional*, int): Manually specify the I²C address of the sensor.
-  Defaults to ``0x62``.
+  Defaults to ``0x28``.
 
 - **update_interval** (*Optional*, :ref:`config-time`): The interval to check the
   sensor. Defaults to ``60s``.
